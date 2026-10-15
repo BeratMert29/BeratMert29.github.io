@@ -1,0 +1,287 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script>document.documentElement.classList.add("js")</script>
+<meta name="theme-color" content="#000000">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Berat Mert Gökkaya">
+<meta property="og:description" content="Software engineer building AI systems and the backend services around them. M.Sc. Software Engineering, Hacettepe University.">
+<meta property="og:url" content="https://beratmert29.github.io/beratmertportfolio/">
+<meta name="twitter:card" content="summary">
+<title>Berat Mert Gökkaya | Software engineer, AI and backend</title>
+<meta name="description" content="Software engineer and M.Sc. student working on NLP, retrieval and applied machine learning.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader-inner">
+    <svg class="hourglass" viewBox="0 0 40 64" width="40" height="64" role="img" aria-label="Loading">
+      <defs>
+        <clipPath id="clipTop"><polygon points="8,6 32,6 20,30"/></clipPath>
+        <clipPath id="clipBottom"><polygon points="20,34 8,58 32,58"/></clipPath>
+      </defs>
+      <g clip-path="url(#clipTop)"><rect id="sandTop" x="0" y="6" width="40" height="24" fill="currentColor"/></g>
+      <g clip-path="url(#clipBottom)"><rect id="sandBottom" x="0" y="58" width="40" height="0" fill="currentColor"/></g>
+      <path d="M4 4H36M4 60H36M8 6L20 30L8 58M32 6L20 30L32 58" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+    </svg>
+    <span class="loader-count"><span id="count">0</span>%</span>
+  </div>
+</div>
+
+<div class="cursor" id="cursor" aria-hidden="true"><i></i></div>
+
+<header class="bar">
+  <a href="#intro" class="logo" data-cursor>Berat Mert Gökkaya</a>
+  <span class="bar-time" id="clock"></span>
+</header>
+
+<nav class="side" aria-label="Sections">
+  <a href="#intro" class="is-active" data-cursor>Intro</a>
+  <a href="#experience" data-cursor>Experience</a>
+  <a href="#projects" data-cursor>Projects</a>
+  <a href="#skills" data-cursor>Skills</a>
+  <a href="#education" data-cursor>Education</a>
+  <a href="#contact" data-cursor>Contact</a>
+</nav>
+
+<main>
+
+<section id="intro" class="hero">
+  <h1 aria-label="Berat Mert Gökkaya">
+    <span class="line" aria-hidden="true"><span class="line-in">Berat Mert</span></span>
+    <span class="line" aria-hidden="true"><span class="line-in">Gökkaya</span></span>
+  </h1>
+  <p class="hero-desc">Software engineer building AI systems and the backend services around them.</p>
+  <p class="hero-meta">M.Sc. Software Engineering, Hacettepe University. Ankara.</p>
+  <a class="btn" href="#experience" data-cursor>See my work</a>
+</section>
+
+<section class="marquee" aria-hidden="true">
+  <div class="marquee-track" id="marquee">
+    <span>RAG</span><i></i><span>NLP</span><i></i><span>Computer vision</span><i></i><span>LLM fine-tuning</span><i></i><span>FastAPI</span><i></i><span>Spring Boot</span><i></i><span>REST APIs</span><i></i>
+    <span>RAG</span><i></i><span>NLP</span><i></i><span>Computer vision</span><i></i><span>LLM fine-tuning</span><i></i><span>FastAPI</span><i></i><span>Spring Boot</span><i></i><span>REST APIs</span><i></i>
+  </div>
+</section>
+
+<section class="about col">
+  <p class="label">About</p>
+  <p class="about-text" id="aboutText">I'm a software engineer and an M.Sc. student at Hacettepe University. I work on both AI and backend development. On the AI side that means language models, retrieval and computer vision. On the backend side I build the services around them with FastAPI and Spring Boot, so the models end up as software people can actually use.</p>
+</section>
+
+<section class="facts col" aria-label="In short">
+  <div><span class="fact-n">4</span><span class="fact-t">internships across backend, NLP and cloud</span></div>
+  <div><span class="fact-n">3rd</span><span class="fact-t">place, 19th R&amp;D Project Market</span></div>
+  <div><span class="fact-n">38 / 829</span><span class="fact-t">projects, Turkcell Technology Leaders of Tomorrow</span></div>
+  <div><span class="fact-n">3.32</span><span class="fact-t">GPA, honor student at Çankaya University</span></div>
+</section>
+
+<section id="experience" class="jobs">
+  <div class="col">
+    <h2 class="section-title">Experience</h2>
+
+    <article class="job is-open">
+      <button class="job-head" aria-expanded="true" data-cursor>
+        <span class="job-year">2026</span>
+        <span class="job-name">Bilsoft</span>
+        <span class="job-role">Software Engineering Intern<em>Apr – May</em></span>
+        <span class="job-plus" aria-hidden="true"></span>
+      </button>
+      <div class="job-body"><div>
+        <ul>
+          <li>Built a Python/FastAPI AI microservice for accounting expenses: clustering, category recommendation, periodicity analysis and anomaly detection.</li>
+          <li>Grouped expense descriptions with TF-IDF and K-Means, then recommended groups from similarity scores and category profiles.</li>
+          <li>Wrote an anomaly module that flags unusual amount changes in periodic expenses using SARIMA/ARIMA with statistical fallbacks.</li>
+        </ul>
+      </div></div>
+    </article>
+
+    <article class="job">
+      <button class="job-head" aria-expanded="false" data-cursor>
+        <span class="job-year">2025</span>
+        <span class="job-name">TUBITAK ULAKBIM</span>
+        <span class="job-role">Software Engineering Intern<em>Aug – Sept</em></span>
+        <span class="job-plus" aria-hidden="true"></span>
+      </button>
+      <div class="job-body"><div>
+        <ul>
+          <li>Set up a fine-tuning pipeline for Turkish NLP with BERTurk and Hugging Face Transformers, including cleaning, tokenization and training.</li>
+          <li>Handled data preparation, evaluation and inference across the training cycle.</li>
+          <li>Queried and validated large datasets with SQL.</li>
+        </ul>
+      </div></div>
+    </article>
+
+    <article class="job">
+      <button class="job-head" aria-expanded="false" data-cursor>
+        <span class="job-year">2025</span>
+        <span class="job-name">Teknosa</span>
+        <span class="job-role">Software Engineering Intern<em>July – Aug</em></span>
+        <span class="job-plus" aria-hidden="true"></span>
+      </button>
+      <div class="job-body"><div>
+        <ul>
+          <li>Deployed machine learning models on Google Cloud by integrating Vertex AI through REST APIs.</li>
+          <li>Applied scalable AI service architecture, API integration and deployment pipeline practices.</li>
+        </ul>
+      </div></div>
+    </article>
+
+    <article class="job">
+      <button class="job-head" aria-expanded="false" data-cursor>
+        <span class="job-year">2024</span>
+        <span class="job-name">Next Generation Software Solutions</span>
+        <span class="job-role">Software Engineering Intern<em>July – Aug</em></span>
+        <span class="job-plus" aria-hidden="true"></span>
+      </button>
+      <div class="job-body"><div>
+        <ul>
+          <li>Contributed to Spring Boot backend services.</li>
+          <li>Developed REST APIs and service-layer business logic.</li>
+        </ul>
+      </div></div>
+    </article>
+  </div>
+</section>
+
+<section id="projects" class="projects">
+  <div class="col">
+    <h2 class="section-title">Projects</h2>
+
+    <article class="project">
+      <header>
+        <h3>Retrieval-Augmented Generation for Legal QA</h3>
+        <p class="p-sub">Turkish legal question answering</p>
+      </header>
+      <div class="project-detail">
+        <ul>
+          <li>RAG pipeline combining BM25, FAISS dense retrieval with BGE-M3, Reciprocal Rank Fusion and a BGE reranker.</li>
+          <li>Six-stage experimental setup covering local Qwen2.5 inference, QLoRA fine-tuning and BGE-M3 embedding fine-tuning.</li>
+          <li>Evaluated on HMGS 2025 and synthetic QA sets: Recall@K, MRR and nDCG for retrieval; F1, ROUGE-L, citation accuracy and faithfulness for generation.</li>
+        </ul>
+        <a class="p-link" href="https://github.com/BeratMert29/Turkish-Legal-Question-Answering-RAG" target="_blank" rel="noopener" data-cursor>View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <header>
+        <h3>Hayat Ağı</h3>
+        <p class="p-sub">Emergency communication under rubble, with no cellular network</p>
+      </header>
+      <div class="project-detail">
+        <ul>
+          <li>Built the mobile app end to end, including ESP32 integration over BLE, connection management and message transmission.</li>
+          <li>Prepared and labeled data, and tuned the severity rules of the AI model that prioritizes emergency messages by medical triage protocols.</li>
+          <li>TUBITAK 2209-A research support, 3rd place at Çankaya University's 19th R&amp;D Project Market, and semifinalist (top 38 of 829) in Turkcell Technology Leaders of Tomorrow. Team of four.</li>
+        </ul>
+        <a class="p-link" href="https://github.com/hayat-agi/mobile" target="_blank" rel="noopener" data-cursor>View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <header>
+        <h3>Retinal Disease Classification</h3>
+        <p class="p-sub">Deep learning on fundus images</p>
+      </header>
+      <div class="project-detail">
+        <ul>
+          <li>Classification model in PyTorch using Swin Transformer and EfficientNet architectures.</li>
+          <li>Semi-supervised learning with the Mean Teacher framework.</li>
+          <li>Streamlit interface for real-time image upload and prediction.</li>
+        </ul>
+        <a class="p-link" href="https://github.com/BeratMert29/EyeDiseaseClassification" target="_blank" rel="noopener" data-cursor>View on GitHub</a>
+      </div>
+    </article>
+
+    <article class="project">
+      <header>
+        <h3>HEALTH-AI</h3>
+        <p class="p-sub">Erasmus+ intelligent health consultation platform</p>
+      </header>
+      <div class="project-detail">
+        <ul>
+          <li>Built the foundational machine learning pipelines and model architectures for health assessment within the Erasmus+ initiative.</li>
+          <li>Led agile cycles in Jira: sprint planning, estimation and delivery for an international, cross-functional team.</li>
+          <li>Drove debugging, edge-case fixes and refactoring toward robust inference and maintainable code.</li>
+        </ul>
+        <a class="p-link" href="https://github.com/EudaLabs/HealthWithSevgi" target="_blank" rel="noopener" data-cursor>View on GitHub</a>
+      </div>
+    </article>
+  </div>
+</section>
+<section id="skills" class="block">
+  <div class="col">
+    <h2 class="section-title">Skills</h2>
+    <dl class="skills">
+      <div class="row"><dt>Generative AI and LLMs</dt><dd>RAG, retrieval pipelines (BM25, FAISS, vector databases), fine-tuning (QLoRA, LoRA), Hugging Face, prompt engineering</dd></div>
+      <div class="row"><dt>Machine learning</dt><dd>PyTorch, scikit-learn, CNN, Vision Transformer, Swin Transformer, NLP with BERTurk, time series (SARIMA/ARIMA), semi-supervised learning</dd></div>
+      <div class="row"><dt>Languages</dt><dd>Python, Java, JavaScript, C#, C, SQL, Dart</dd></div>
+      <div class="row"><dt>Backend and web</dt><dd>FastAPI, Spring Boot, REST APIs, Streamlit</dd></div>
+      <div class="row"><dt>Cloud and tools</dt><dd>Google Cloud Platform, Vertex AI, Docker, Git, Jira</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section id="education" class="block">
+  <div class="col">
+    <h2 class="section-title">Education</h2>
+    <div class="edu">
+      <div class="row">
+        <div class="when">Sept 2026 – Present</div>
+        <div><h3>Hacettepe University</h3><p class="role">M.Sc. Software Engineering</p></div>
+      </div>
+      <div class="row">
+        <div class="when">Oct 2022 – July 2026</div>
+        <div>
+          <h3>Çankaya University</h3>
+          <p class="role">B.Sc. Software Engineering</p>
+          <p class="note">Honor student, GPA 3.32 / 4.00. 50% scholarship and 10% academic merit scholarship.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols">
+      <div>
+        <h3 class="sub">Awards and certificates</h3>
+        <ul class="plain">
+          <li class="row"><span>Certificate of Achievement in AI, Erasmus+ HEALTH-AI, funded by the European Union</span><time datetime="2026-05">May 2026</time></li>
+          <li class="row"><span>3rd Place, 19th R&amp;D Project Market, Çankaya University</span><time datetime="2026-06">June 2026</time></li>
+          <li class="row"><span>Natural Language Processing certificate</span><time datetime="2025-01">Jan 2025</time></li>
+          <li class="row"><span>TEDxBilkent participation</span><time datetime="2024-12">Dec 2024</time></li>
+          <li class="row"><span>Code Sprint participation</span><time datetime="2024-01">Jan 2024</time></li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="sub">Languages</h3>
+        <ul class="plain">
+          <li class="row"><span>Turkish</span><span class="lvl">Native</span></li>
+          <li class="row"><span>English</span><span class="lvl">Professional, B2</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="col">
+    <p class="contact-lede">Looking for a junior or long-term internship in AI, machine learning or backend engineering.</p>
+    <a class="mail" id="mail" href="mailto:beratmertgokkaya21@gmail.com" data-cursor>beratmertgokkaya21<wbr>@gmail.com</a>
+    <ul class="contact-list">
+      <li><a href="https://github.com/BeratMert29" target="_blank" rel="noopener" data-cursor>github.com/BeratMert29</a></li>
+      <li><a href="https://www.linkedin.com/in/beratmertgokkaya" target="_blank" rel="noopener" data-cursor>linkedin.com/in/beratmertgokkaya</a></li>
+      <li>Ankara, Turkey</li>
+    </ul>
+  </div>
+</section>
+
+</main>
+
+<script src="vendor/gsap.min.js"></script>
+<script src="vendor/ScrollTrigger.min.js"></script>
+<script src="vendor/lenis.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
